@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
-    main-page
+  <div class="page">
+    This application may come soon
   </div>
 </template>
