@@ -1,6 +1,9 @@
 <template>
   <div class="header">
-    <div class="header__hamburger">
+    <div 
+      class="header__hamburger"
+      @click="isDrawerOpen = true"
+    >
       <svg width="30" height="18" viewBox="0 0 30 18" fill="none" xmlns="http://www.w3.org/2000/svg">
         <rect width="20" height="2" fill="#2A2A2A"/>
         <rect y="16" width="20" height="2" fill="#2A2A2A"/>
