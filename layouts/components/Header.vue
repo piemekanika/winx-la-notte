@@ -11,8 +11,33 @@
     <div class="header__logo">
       Winx la Notte
     </div>
+
+    <drawer 
+      :is-open="isDrawerOpen" 
+      @close="handleDrawerClose"
+    />
   </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      isDrawerOpen: true,
+    }
+  },
+
+  components: {
+    Drawer: () => import('./Drawer')
+  },
+
+  methods: {
+    handleDrawerClose () {
+      this.isDrawerOpen = false
+    }
+  }
+}
+</script>
 
 <style lang="scss" scoped>
 .header {
