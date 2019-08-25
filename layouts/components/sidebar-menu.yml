@@ -1,29 +1,31 @@
-- nocategory:
-  - link: /
-    title: News
-    icon: something
-  
-  - link: /threads
-    title: Threads
-    icon: skffdafads
-  
-  - link: /posts
-    title: Posts
-    icon: fdsanof
+- category:
+  items:
+    - link: /
+      title: News
+      icon: iconmonstr-marketing-39
+    
+    - link: /threads
+      title: Threads
+      icon: iconmonstr-speech-bubble-comment-thin
+    
+    - link: /posts
+      title: Posts
+      icon: iconmonstr-document-thin
 
-- account:
-  - link: /messages
-    title: Messages
-    icon: fdaafasd
-  
-  - link: /profile
-    title: Profile
-    icon: fadsfasdf
-  
-  - link: /settings
-    title: Settings
-    icon: fasdsfas
-  
-  - link: /logout
-    title: Log out
-    icon: fdaslfasd
+- category: Account
+  items:
+    - link: /messages
+      title: Messages
+      icon: iconmonstr-mail-thin
+    
+    - link: /profile
+      title: Profile
+      icon: iconmonstr-user-male-thin
+    
+    - link: /settings
+      title: Settings
+      icon: iconmonstr-gear-thin
+    
+    - link: /logout
+      title: Log out
+      icon: iconmonstr-key-thin
