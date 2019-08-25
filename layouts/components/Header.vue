@@ -16,6 +16,7 @@
     </div>
 
     <drawer 
+      v-if="isDrawerOpen"
       :is-open="isDrawerOpen" 
       @close="handleDrawerClose"
     />
