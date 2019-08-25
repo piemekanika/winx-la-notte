@@ -26,7 +26,7 @@
 export default {
   data () {
     return {
-      isDrawerOpen: true,
+      isDrawerOpen: false,
     }
   },
 
