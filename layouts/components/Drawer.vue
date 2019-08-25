@@ -10,7 +10,9 @@
       </div>
 
       <div class="drawer__links">
-        <drawer-menu />
+        <drawer-menu 
+          @link-clicked="handleDrawerClose"
+        />
       </div>
     </div>
   </div>
