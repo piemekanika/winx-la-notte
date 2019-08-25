@@ -9,7 +9,7 @@
     </div>
 
     <div class="header__logo">
-      Winx-la-Notte
+      Winx la Notte
     </div>
   </div>
 </template>
